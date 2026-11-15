@@ -13,6 +13,8 @@ def main():
     print("Simple Calculator")
     print("5 + 3 =", add(5, 3))
     print("10 - 4 =", subtract(10, 4))
+    print("10 / 2 =", divide(10, 2))
+    print("10 / 0 =", divide(10, 0))
 
 if __name__ == "__main__":
     main()
